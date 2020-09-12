@@ -1,0 +1,16 @@
+{
+  "title": "Question 5:",
+  "description": "My transaction has been pending on Etherscan for more than an hour. What's the deal and how do I fix this?",
+  "color": "0099ff",
+  "fields": [
+    {
+      "title": "Answer:",
+      "value": "When you Zap liquidity, it normally requires multiple transactions, which you'll be prompted to confirm. However, transactions on Ethereum compete to be confirmed through an auction-like process, bidding by gas price (show as Gwei in your wallet). If the average bidding gas price is much higher than you selected under Speed before Confirming a Zap or when you modified the gas price in MetaMask, your transaction can get stuck. Sometimes we get unlucky choosing a gas price right as gas prices skyrocket (see recommended gas prices at ethgasstation.info).\n\nTransactions submitted by an Ethereum address will processed sequentially so if transaction #1 is stuck, transaction #2 will be stuck waiting until 1 confirms. [Here's](https://www.youtube.com/watch?v=6EcJNCapRq8&ab_channel=DeFiTutorialswithDeFiDad) a helpful video tutorial from DeFi Dad on how you fix a pending transaction."
+    },
+    {
+      "title": "\u200b",
+      "value": "You can also use [this](https://cancel-ethereum-transactions.web.app/) amazing tool to cancel all pending transactions."
+    }
+  ],
+  "footer": {}
+}

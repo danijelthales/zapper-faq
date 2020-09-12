@@ -60,7 +60,7 @@ client.on("message", msg => {
             if (!(msg.channel.type == "dm")) {
                 // this is logic for channels
                 if (msg.content.toLowerCase().trim() == "!faq") {
-                    msg.reply("Hi, I am yEarn FAQ bot. I will be very happy to assist you, just ask me for **help** in DM.");
+                    msg.reply("Hi, I am zapper FAQ bot. I will be very happy to assist you, just ask me for **help** in DM.");
                 } else if (msg.content.toLowerCase().trim() == "!faq help") {
                     msg.reply("I can only answer a predefined question by its number or by alias in a channel, e.g. **question 1**, or **gas price**. \n For more commands and options send me **help** in DM");
                 } else if (msg.content.toLowerCase().trim().replace(/ +(?= )/g, '').startsWith("!faq question")) {
@@ -120,7 +120,7 @@ client.on("message", msg => {
                             if (command == "question") {
                                 msg.reply("Choose your question with ***question questionNumber***, e.g. ***question 1***\nYou can get the question number via **list** command");
                             } else if (command == "category") {
-                                msg.reply("Choose your category with ***category categoryName***, e.g. ***category zapper.fi***\nCategory name is fetched from **categories** command");
+                                msg.reply("Choose your category with ***category categoryName***, e.g. ***category zapper***\nCategory name is fetched from **categories** command");
                             } else if (command == "search") {
                                 msg.reply("Search for questions with ***search searchTerm***, e.g. ***search vault***");
                             } else {
@@ -158,7 +158,7 @@ client.on("message", msg => {
                             });
 
                             if (!found) {
-                                exampleEmbed.addField('\u200b', "That doesn't look like a known category. Use a category name from **categories** command, e.g. **category zapper.fi**");
+                                exampleEmbed.addField('\u200b', "That doesn't look like a known category. Use a category name from **categories** command, e.g. **category zapper**");
                             } else {
                                 exampleEmbed.addField('\u200b', 'Choose your question with e.g. **question 1**');
                             }
@@ -264,15 +264,15 @@ client.on("message", msg => {
         function doFaqHelp() {
             const exampleEmbed = new Discord.MessageEmbed()
                 .setColor('#0099ff')
-                .setTitle('Switcheo Frequently Asked Questions')
-                .setURL('https://docs.yearn.finance/');
+                .setTitle('Zapper Frequently Asked Questions')
+                .setURL('https://docs.zapper.fi/');
 
             exampleEmbed.setDescription('Hello, here is list of commands I know:');
             exampleEmbed.addField("list", "Lists all known questions");
             exampleEmbed.addField("categories", "Lists all categories of known questions");
-            exampleEmbed.addField("category categoryName", "Lists all known questions for a given category name, e.g. ** category *zapper.fi* **");
+            exampleEmbed.addField("category categoryName", "Lists all known questions for a given category name, e.g. ** category *zap* **");
             exampleEmbed.addField("question questionNumber", "Shows the answer to the question defined by its number, e.g. ** question *7* **");
-            exampleEmbed.addField("search searchTerm", "Search all known questions by given search term, e.g. ** search *zapper.fi price* **");
+            exampleEmbed.addField("search searchTerm", "Search all known questions by given search term, e.g. ** search *zap price* **");
             exampleEmbed.addField("aliases", "List all known aliases");
             exampleEmbed.addField("subscribe gas gasPrice",
                 "I will inform you the next time safe gas price is below your target gasPrice, e.g. **subscribe gas 30** will inform you if safe gas price is below 30 gwei");
@@ -285,7 +285,7 @@ client.on("message", msg => {
             let exampleEmbed = new Discord.MessageEmbed()
                 .setColor('#0099ff')
                 .setTitle('Frequently Asked Questions')
-                .setURL('https://docs.yearn.finance/');
+                .setURL('https://docs.zapper.fi/');
 
             fs.readdir('questions', function (err, files) {
                 if (err) {
@@ -305,7 +305,7 @@ client.on("message", msg => {
                             exampleEmbed = new Discord.MessageEmbed()
                                 .setColor('#0099ff')
                                 .setTitle('Frequently Asked Questions page ' + pagenumber)
-                                .setURL('https://docs.yearn.finance/');
+                                .setURL('https://docs.zapper.fi/');
                             pagenumber++;
                             counter = 0;
                         }

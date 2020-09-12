@@ -1,0 +1,12 @@
+{
+  "title": "Question 3:",
+  "description": "Does Zapper ever have control of my assets?",
+  "color": "0099ff",
+  "fields": [
+    {
+      "title": "Answer:",
+      "value": "No. Zapper does not custody or control your assets. Our Dashboard draws upon on-chain data after you connect your wallet to visualize a snapshot of your DeFi portfolio. Our Zaps help to add liquidity, withdraw liquidity, or rebalance liquidity between 2 platforms."
+    }
+  ],
+  "footer": {}
+}

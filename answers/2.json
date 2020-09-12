@@ -1,0 +1,12 @@
+{
+  "title": "Question 2:",
+  "description": "What is a Zap?",
+  "color": "0099ff",
+  "fields": [
+    {
+      "title": "Answer:",
+      "value": "A Zap provides an open source front-end interface for traders and liquidity providers to easily interact with the smart contracts of popular DeFi protocols. In other words, Zaps empower you to use applications like Uniswap, yearn.finance, Balancer, and Curve in a few clicks without having to open each of of their signature websites. You can explore hundreds of Zaps available [here](zapper.fi/invest)."
+    }
+  ],
+  "footer": {}
+}
