@@ -5,7 +5,7 @@
   "fields": [
     {
       "title": "Answer:",
-      "value": "Zapper is your DeFi dashboard for monitoring your portfolio, includes assets, debts, liquidity pools, and yield farming. Zapper is also your gateway to investing in hundreds of DeFi strategies in just a few clicks. Zaps can save you time, effort, and transaction fees (gas) by deploying your capital and reallocating it in a single DeFi command control center, working with the most trusted DeFi applications like yearn.finance, Uniswap, Balancer, Curve, and more."
+      "value": "No, currently Zapper does not charge any fees besides the gas required to process your transaction on-chain. Zapper helps you save gas fees by bundling multiple DeFi actions into one transaction."
     }
   ],
   "footer": {}
