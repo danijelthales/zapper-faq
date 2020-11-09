@@ -5,19 +5,19 @@
   },
   {
     "number": 2,
-    "alias": "zap"
+    "alias": "zaps"
   },
   {
     "number": 3,
-    "alias": "asset control"
+    "alias": "gas save"
   },
   {
     "number": 4,
-    "alias": "fees"
+    "alias": "zapper account"
   },
   {
     "number": 4,
-    "alias": "zapper fees"
+    "alias": "account"
   },
   {
     "number": 5,
@@ -38,5 +38,21 @@
   {
     "number": 8,
     "alias": "eth"
+  },
+  {
+    "number": 9,
+    "alias": "walkthrough"
+  },
+  {
+    "number": 10,
+    "alias": "zap liquidity"
+  },
+  {
+    "number": 11,
+    "alias": "why use zap"
+  },
+  {
+    "number": 12,
+    "alias": "zap any token"
   }
 ]

@@ -1,11 +1,12 @@
 {
   "title": "Question 2:",
-  "description": "What is a Zap?",
+  "description": "What are Zaps?",
   "color": "0099ff",
+  "url": "https://zapper.crunch.help/zapper-fi-faq/what-is-a-zap",
   "fields": [
     {
       "title": "Answer:",
-      "value": "A Zap provides an open source front-end interface for traders and liquidity providers to easily interact with the smart contracts of popular DeFi protocols. In other words, Zaps empower you to use applications like Uniswap, yearn.finance, Balancer, and Curve in a few clicks without having to open each of of their signature websites. You can explore hundreds of Zaps available [here](zapper.fi/invest)."
+      "value": "Zap allows you to optimize your token allocation, save time and save gas fee when using applications such as Uniswap, yearn.finance, Balancer, and Curve. Using Zap, you can use each of the applications in just a few clicks without having to open each of their signature websites. Zaps also abstracts away middle transactions, allowing you to use the mentioned protocols and save on gas fees.\n See detailed answer [here](https://zapper.crunch.help/zapper-fi-faq/what-is-a-zap)"
     }
   ],
   "footer": {}

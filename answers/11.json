@@ -1,0 +1,21 @@
+{
+  "title": "Question 11:",
+  "description": "Why use Zaps?",
+  "color": "0099ff",
+  "url": "https://zapper.crunch.help/zapper-fi-faq/why-use-zaps",
+  "fields": [
+    {
+      "title": "Answer:",
+      "value": "When people enter [liquidity pools](https://zapper.crunch.help/defi-investing-101/what-are-liquidity-pools), they have to have both tokens for the pool ready. Many start out with only one liquidity token, or sometimes even something completely different, so they have to swap the tokens manually. Doing so causes a few problems: \n\nThe price that a user refers to for calculation may be different from the price that the pools use, causing the user to never fully calculate the right amount to swap in order to join a liquidity pool.\nEntering a pool manually usually needs a few transactions, this increases gas cost.\nThe price may also fluctuate in between transactions, exposing users to unnecessary price risks."
+    },
+    {
+      "title": "Example :",
+      "value": "Go to coingecko/coinmarketcap to see how much current ETH is worth, say xyz DAI\nCalculate how much DAI should be converted based on sources that may be unreliable and could lag behind real market rates by a lot. If the price feed that the user is referring to for calculation deviates too much from actual execution rate, the calculation would be off and the original value would not be fully utilized.\nTransaction No. 1: convert ETH into DAI. Note that the price at this moment may have changed, causing further deviation from optimal usage of original value.\nFinally, transaction No. 2: enter uniswap pool. "
+    },
+    {
+      "title": "\u200b",
+      "value": "All these problems may cause 1. the value of the original token to not be fully utilized 2. Potential loss if price moves against the user during intermediate transactions. Zaps solve both of these problems.\n\nWith Zapper.fi’s Zaps, interacting with pools goes from 4-step to 1-step. Users can zap into liquidity pools in just one click. Better yet, both of the above problems are solved. While Zapper doesn't calculate prices based on the pool (to prevent a sandwich attack, learn more about it here), it pulls data from Coingecko, which is one of the most reputatble data sources for coin prices. Zaps calculate the best prices and interact with the pools automatically, making sure that token utilization is optimal. The much shorter timeframe also leaves little room for price fluctuation, again ensuring that the tokens are fully optimized, but also saves on gas costs. "
+    }
+  ],
+  "footer": {}
+}

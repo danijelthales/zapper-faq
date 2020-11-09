@@ -1,0 +1,13 @@
+{
+  "title": "Question 12:",
+  "description": "Can I zap any token with a Zap?",
+  "color": "0099ff",
+  "url": "https://zapper.crunch.help/zapper-fi-faq/can-i-zap-any-token-with-a-zap",
+  "fields": [
+    {
+      "title": "Answer:",
+      "value": "Due to liquidity constraints with some tokens, ideally one is zapping one of the tokens in a liquidity pool. For such LPs, Zapper conveniently can split your liquidity provision into whatever proportion the LP calls for (ie 50/50 in Uniswap or maybe 80/20 in Balancer).\n\nHowever, Zapper also can magically Zap a token not in the pool by swapping it first for a pool token. For example, in the ETH-DAI pool in Uniswap, one could zap in with USDC. Currently, we offer this convenience with more liquid tokens like ETH, DAI, USDC, USDT, and WBTC."
+    }
+  ],
+  "footer": {}
+}

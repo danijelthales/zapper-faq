@@ -1,0 +1,13 @@
+{
+  "title": "Question 10:",
+  "description": "Is it safe to Zap into all liquidity pools on Zapper?",
+  "color": "0099ff",
+  "url": "https://zapper.crunch.help/zapper-fi-faq/is-it-safe-to-zap-into-all-liquidity-pools-on-zapper",
+  "fields": [
+    {
+      "title": "Answer:",
+      "value": "We cannot provide financial advice, but we do our best to vet that Zaps lead users to smart contracts that are audited and developed by reputable DeFi teams. Please assume that there is always risk in zapping into any liquidity pool or yield farming opportunity via Zapper. Common risks to consider in the resulting exposure one can achieve through Zaps is smart contract risk (bugs), impermanent loss in LPs, liquidity crises in less liquid pools, admin risk, governance compromise risk, stablecoins de-pegging, tokenized BTC de-pegging, and systemic risk with how interwoven many DeFi apps and protocols are on Ethereum."
+    }
+  ],
+  "footer": {}
+}

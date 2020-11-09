@@ -2,10 +2,11 @@
   "title": "Question 1:",
   "description": "What is Zapper?",
   "color": "0099ff",
+  "url": "https://zapper.crunch.help/zapper-fi-faq/what-is-zapper-fi",
   "fields": [
     {
       "title": "Answer:",
-      "value": "Zapper is your DeFi dashboard for monitoring your portfolio, includes assets, debts, liquidity pools, and yield farming. Zapper is also your gateway to investing in hundreds of DeFi strategies in just a few clicks. Zaps can save you time, effort, and transaction fees (gas) by deploying your capital and reallocating it in a single DeFi command control center, working with the most trusted DeFi applications like yearn.finance, Uniswap, Balancer, Curve, and more."
+      "value": "Zapper is your DeFi dashboard for monitoring your portfolio, includes assets, debts, liquidity pools, and yield farming. Zapper is also your gateway to investing in hundreds of DeFi strategies in just a few clicks. Zaps can save you time, effort, and transaction fees (gas) by deploying your capital and reallocating it in a single DeFi command control center, working with the most trusted DeFi applications like yearn.finance, Uniswap, Balancer, Curve, and more.\n See detailed answer [here](https://zapper.crunch.help/zapper-fi-faq/what-is-zapper-fi)"
     }
   ],
   "footer": {}

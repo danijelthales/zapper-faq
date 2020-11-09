@@ -1,12 +1,14 @@
 {
   "title": "Question 3:",
-  "description": "Does Zapper ever have control of my assets?",
+  "description": "How much gas fee will I save from using Zaps?",
   "color": "0099ff",
+  "url": "https://zapper.crunch.help/zapper-fi-faq/how-much-gas-fee-will-i-save-from-using-zaps",
   "fields": [
     {
       "title": "Answer:",
-      "value": "No. Zapper does not custody or control your assets. Our Dashboard draws upon on-chain data after you connect your wallet to visualize a snapshot of your DeFi portfolio. Our Zaps help to add liquidity, withdraw liquidity, or rebalance liquidity between 2 platforms."
+      "value": "Besides allowing you to “zap” into defi protocols without going into their respective website, Zap also allows you to save on transaction fees. For a concrete example, see the below picture previously tweeted by one of our co-founders, Nodar. Or better yet, try it out yourself [here](zapper.fi/invest)"
     }
   ],
+  "image": "gasSave.jpeg",
   "footer": {}
 }

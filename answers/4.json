@@ -1,12 +1,14 @@
 {
   "title": "Question 4:",
-  "description": "Does Zapper charge fees?",
+  "description": "Do I need a Zapper account?",
   "color": "0099ff",
+  "url": "https://zapper.crunch.help/zapper-fi-faq/do-i-need-a-zapper-account",
   "fields": [
     {
       "title": "Answer:",
-      "value": "No, currently Zapper does not charge any fees besides the gas required to process your transaction on-chain. Zapper helps you save gas fees by bundling multiple DeFi actions into one transaction."
+      "value": "Just like other Web3 applications, Zapper doesn't require you to register with email and passwords like a traditional software. Instead, you would connect your Ethereum wallet through one of the many options available including MetaMask, WalletConnect, Fortmatic and more (see screenshot below).\n\nIf you don't have one, a good place to start is MetaMask. You can visit their websites [here](https://metamask.io/). Remember, you can connect multiple wallets or paste in the address by clicking the dropdown menu next to your wallet address in the top left next to the Zapper logo and choosing Manage Addresses to paste in a valid ETH address or your ENS domain."
     }
   ],
-  "footer": {}
+  "footer": {},
+  "image": "metamask.png"
 }
